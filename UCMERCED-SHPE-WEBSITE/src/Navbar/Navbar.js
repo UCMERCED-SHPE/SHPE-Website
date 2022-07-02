@@ -1,6 +1,7 @@
-import React from "react";
 import "./Navbar.css";
-import Logo from "../assets/SHPE_logo_horiz_UC Merced_CMYK.png";
+import React from "react";
+//Currently looking into Navlinks from react-router-dom
+import Logo from "../assets/SHPE_logo_horiz_UC Merced_DKBG.png";
 
 function Navbar() {
   return (
