@@ -9,16 +9,16 @@
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: lightblue;
+  background-color: #0b3b9f;
 }
 
 .navbar a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 .navbar a:hover {
-  color: aqua;
+  color: orange;
 }
 
 .nav-links {
