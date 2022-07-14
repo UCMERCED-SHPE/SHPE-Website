@@ -1,7 +1,9 @@
 import React from "react";
+import Alumni from "./Alumni/Alumni";
 import Home from "./Home/Home";
+import Initiatives from "./Initiatives/Initiatives";
 import EBoard from "./EBoard/EBoard";
-import About from "./About/About";
+import Values from "./Values/Values";
 
 import Join from "./Join/Join";
 import Contact from "./Contact/Contact";
@@ -16,7 +18,11 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          {/* create a route for Values */}
+          <Route path="/initiatives" element={<Initiatives />} />
+          <Route path="/eboard" element={<EBoard />} />
+          <Route path="/alumni" element={<Alumni />} />
+          <Route path="/values" element={<Values />} />
           <Route path="/join" element={<Join />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
