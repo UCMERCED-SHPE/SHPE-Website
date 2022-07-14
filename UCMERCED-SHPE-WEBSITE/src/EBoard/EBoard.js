@@ -5,8 +5,7 @@ import Navbar from "../Navbar/Navbar";
 function EBoard() {
   return (
     <div>
-      <Navbar />
-      <p>You switched over to the eboard page</p>
+      <h4 className="text">You switched over to the eboard page</h4>
     </div>
   );
 }

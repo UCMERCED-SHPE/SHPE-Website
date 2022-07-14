@@ -4,8 +4,8 @@ import Navbar from "../Navbar/Navbar";
 
 function Home() {
   return (
-    <div className="parent-container">
-      <Navbar />
+    <div>
+      <h4>This is the Home page</h4>
     </div>
   );
 }
