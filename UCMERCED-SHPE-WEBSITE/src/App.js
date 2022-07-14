@@ -18,6 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/join" element={<Join />} />
+          <Route path="/eboard" element={<EBoard />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
