@@ -5,7 +5,7 @@ import Navbar from "../Navbar/Navbar";
 function Home() {
   return (
     <div>
-      <h4>This is the Home page</h4>
+      <h4>This is the Home page for now</h4>
     </div>
   );
 }
