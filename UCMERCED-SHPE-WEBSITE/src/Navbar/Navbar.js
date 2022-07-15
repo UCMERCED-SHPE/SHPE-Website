@@ -19,7 +19,17 @@ function Navbar() {
           <Link to="/">Home</Link>
         </li>
         <li class="link-item">
-          <Link to="/about">About Us</Link>
+          <div class="dropdown">
+            <button class="dropbtn">About Us
+              <i class="fa fa-caret-down" aria-hidden="true"></i>
+            </button>
+            <div class= "dropdown-content">
+              <Link className="Links" to="/values">Values</Link>
+              <Link className="Links" to="/initiatives">Initiatives</Link>
+              <Link className="Links" to="/eboard">EBoard</Link>
+              <Link className="Links" to="Alumni">Alumni</Link>
+            </div>
+          </div>
         </li>
         <li class="link-item">
           <Link to="/join">Join</Link>
