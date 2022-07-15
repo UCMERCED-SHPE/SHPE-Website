@@ -5,6 +5,7 @@ import Initiatives from "./Initiatives/Initiatives";
 import EBoard from "./EBoard/EBoard";
 import Values from "./Values/Values";
 
+
 import Join from "./Join/Join";
 import Contact from "./Contact/Contact";
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/values" element={<Values />} />
           <Route path="/join" element={<Join />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/alumni" element={<Alumni />} />
         </Routes>
       </BrowserRouter>
     </>

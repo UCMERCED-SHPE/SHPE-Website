@@ -1,0 +1,87 @@
+.Parent-Container {
+    
+}
+
+.Wide-Picture {
+display: flex;
+justify-content: center;
+padding: 4REM 4REM;
+margin: 2rem 2rem;
+border: 1px solid red;
+}
+ 
+.banner-image {
+    height: 10rem;
+}
+
+.Wide-Picture h2 {
+    text-align: center;
+}
+
+.First-20XX-Year {
+    padding: 2rem 2rem;
+    margin: 2rem 2rem;
+    border: 1px solid black;
+}
+
+.Picture-Container{
+    padding: 2rem 2rem;
+    margin: 2rem 2rem;
+    border: 1px solid blue;
+}
+
+.Picture-One {
+    display: inline-block;
+    padding: 2rem 7rem;
+    margin: 2rem;
+    width: 29%;
+    height: fit-content;
+    border: 1px solid red;
+
+}
+
+.Picture-One h3 {
+    text-align: center;
+}
+
+.Picture-One h4 {
+    text-align: center;
+}
+
+.Picture-Two {
+    display: inline-block;
+    padding: 2rem 7rem;
+    margin: 2rem 2rem;
+    width: 29%;
+    border: 1px solid red;
+}
+
+.Picture-Two h3 {
+    text-align: center;
+}
+
+.Picture-Two h4 {
+    text-align: center;
+}
+
+.Picture-Three {
+    display: inline-block;
+    padding: 2rem 7rem;
+    margin: 2rem 2rem;
+    width: 29%;
+    border: 1px solid red;
+}
+
+.Picture-Three h3 {
+    text-align: center;
+}
+
+.Picture-Three h4 {
+    text-align: center;
+}
+
+.Second-20XX-Year {
+    padding: 2rem 2rem;
+    margin: 2rem 2rem;
+    border: 1px solid black;
+}
