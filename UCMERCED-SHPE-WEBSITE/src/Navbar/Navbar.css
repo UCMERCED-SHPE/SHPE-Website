@@ -9,7 +9,7 @@
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: #0b3b9f;
+  background-image: linear-gradient(to right, #0b3b9f, #306ff1);
 }
 
 .navbar a {
@@ -27,6 +27,7 @@
 
 .nav-links .link-item {
   display: inline-block;
+  justify-content: center;
   padding: 2rem 1rem;
 }
 

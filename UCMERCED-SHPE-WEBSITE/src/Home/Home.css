@@ -7,8 +7,7 @@
 .banner-container {
   display: flex;
   justify-content: center;
-
-  margin: 10px 15px;
+  padding: 10px 15px;
 }
 
 .banner-image {
@@ -19,28 +18,34 @@
 }
 
 .mission-vision-container {
-  border: 1px solid black;
-  margin: 1rem;
-  padding: 0rem 0rem;
+  margin: 0rem 4rem;
   text-align: center;
 }
 
 .mission-container {
   display: inline-block;
-  border: 1px solid red;
-  margin: 25px 25px;
+  border: 1px solid blue;
+  margin: 1rem 2rem;
+  padding: 1rem 1rem;
   vertical-align: middle;
   text-align: left;
   max-width: 45%;
+  border-radius: 1rem;
 }
 
 .vision-container {
   display: inline-block;
-  border: 1px solid red;
-  margin: 25px 25px;
+  border: 1px solid blue;
+  margin: 1rem 2rem;
+  padding: 1rem 1rem;
   vertical-align: middle;
   text-align: left;
   max-width: 45%;
+  border-radius: 1rem;
+}
+
+.vision-container p {
+  color: aqua;
 }
 
 .pillar-title {
