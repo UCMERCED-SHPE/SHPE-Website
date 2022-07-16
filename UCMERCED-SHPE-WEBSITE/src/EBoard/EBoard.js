@@ -4,8 +4,10 @@ import Navbar from "../Navbar/Navbar";
 
 function EBoard() {
   return (
-    <div>
-      <h4 className="text">You switched over to the eboard page</h4>
+    <div className="Parent">
+      <div className="Title">
+        <h4 className="text"> Executive Board 2022</h4>
+      </div>
     </div>
   );
 }
