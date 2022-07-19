@@ -22,8 +22,39 @@ function EBoard() {
 
       </div>
 
-
       
+
+      <div className="mem4-container">
+
+      </div>
+
+
+      <div className="mem5-container">
+
+      </div>
+
+
+      <div className="mem6-container">
+
+      </div>
+
+
+
+      <div className="mem7-container">
+
+      </div>
+
+
+      <div className="mem8-container">
+
+      </div>
+
+
+      <div className="mem9-container">
+
+      </div>
+
+
     </div>
   );
 }
