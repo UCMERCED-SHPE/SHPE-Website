@@ -14,10 +14,28 @@
 }
 
 .mem1-container{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border: 2px solid black;
-  position: relative;
-  left: 8rem;
-  top: 4rem;
+  position: absolute;
+  left: 10rem;
+  top: 18rem;
+}
+
+.mem2-container{
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  position: absolute;
+  left: 40rem;
+  top: 18rem;
+}
+
+.mem3-container{
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  position: absolute;
+  left: 70rem;
+  top: 18rem;
 }
