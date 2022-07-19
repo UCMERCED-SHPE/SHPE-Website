@@ -1,7 +1,7 @@
 import React from "react";
-import "./Alumni.css";
+import "./Values.css";
 
-function Alumni() {
+function Values() {
     return(
         <div>
             <h1>this will show for now</h1>
@@ -9,4 +9,4 @@ function Alumni() {
     );
 }
 
-export default Alumni;
+export default Values;
