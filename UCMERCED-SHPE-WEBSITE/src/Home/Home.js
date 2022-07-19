@@ -1,6 +1,11 @@
 import React, { useEffect } from "react";
 import "./Home.css";
 import Banner from "../assets/Nationals1.jpg";
+import Familia from "../assets/SHPE-Familia.jpg";
+import Academics from "../assets/SHPE-Academics.jpg";
+import Professionalism from "../assets/SHPE-Professionalism.jpg";
+import Networking from "../assets/SHPE-Networking.png";
+import Outreach from "../assets/SHPE-Outreach1.png";
 
 import "aos/dist/aos.css";
 import Aos from "aos";
@@ -49,19 +54,89 @@ const Home = () => {
 
       <div className="pillar-container">
         <div data-Aos="fade-left" className="pillar-title">
-          <h2>Familia</h2>
+          <div className="fade-in-container">
+            <div className="image-left-container">
+              <img class="pillar-image" src={Familia} alt="Logo" />
+            </div>
+
+            <div className="text-right-container">
+              <h2>Familia:</h2>
+              <p>
+                <br></br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              </p>
+            </div>
+          </div>
         </div>
         <div data-Aos="fade-left" className="pillar-title">
-          <h2>Academics</h2>
+          <div className="fade-in-container">
+            <div className="text-left-container">
+              <h2>Academics:</h2>
+              <p>
+                <br></br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              </p>
+            </div>
+
+            <div className="image-right-container">
+              <img class="pillar-image" src={Academics} alt="Logo" />
+            </div>
+          </div>
         </div>
         <div data-Aos="fade-left" className="pillar-title">
-          <h2>Professionalism</h2>
+          <div className="fade-in-container">
+            <div className="image-left-container">
+              <img class="pillar-image" src={Professionalism} alt="Logo" />
+            </div>
+
+            <div className="text-right-container">
+              <h2>Professionalism:</h2>
+              <p>
+                <br></br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              </p>
+            </div>
+          </div>
         </div>
         <div data-Aos="fade-left" className="pillar-title">
-          <h2>Networking</h2>
+          <div className="fade-in-container">
+            <div className="text-left-container">
+              <h2>Networking:</h2>
+              <p>
+                <br></br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              </p>
+            </div>
+
+            <div className="image-right-container">
+              <img class="pillar-image" src={Networking} alt="Logo" />
+            </div>
+          </div>
         </div>
         <div data-Aos="fade-left" className="pillar-title">
-          <h2>Outreach</h2>
+          <div className="fade-in-container">
+            <div className="image-left-container">
+              <img class="pillar-image" src={Outreach} alt="Logo" />
+            </div>
+
+            <div className="text-right-container">
+              <h2>Outreach:</h2>
+              <p>
+                <br></br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
