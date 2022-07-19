@@ -8,6 +8,9 @@ function EBoard() {
       <div className="Title">
         <h4 className="text"> Executive Board 2022</h4>
       </div>
+      <div className="mem1-container">
+        <b1 className = "mem1"> Board Member one</b1>
+      </div>
     </div>
   );
 }
