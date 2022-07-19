@@ -1,16 +1,33 @@
 import React, { useEffect } from "react";
 import "./Values.css";
-import Banner from "../assets/Nationals1.jpg";
+import Banner from "../assets/SHPE-BannerImage2.png";
 import Familia from "../assets/SHPE-Familia.jpg";
 import Academics from "../assets/SHPE-Academics.jpg";
 import Professionalism from "../assets/SHPE-Professionalism.jpg";
 import Networking from "../assets/SHPE-Networking.png";
-import Outreach from "../assets/SHPE-Outreach1.png";
+import Outreach from "../assets/SHPE-Outreach3.png";
 
 import "aos/dist/aos.css";
 import Aos from "aos";
+import Button from "@material-ui/core/Button";
+import { Link } from "react-router-dom";
+import { withStyles } from "@material-ui/core/styles";
 
 //MOVE ALL CHANGES TO PILLARS.JS
+
+const CustomButton = withStyles({
+  root: {
+    background: "linear-gradient(to right, #0b3b9f, #306ff1)",
+    borderRadius: "1rem",
+    color: "white",
+    height: 48,
+    padding: "0 1.5rem",
+  },
+  label: {
+    textTransform: "capitalize",
+  },
+})((props) => <Button {...props} />);
+
 const Home = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -53,7 +70,7 @@ const Home = () => {
       </div>
 
       <div className="pillar-container">
-        <div data-Aos="fade-left" className="pillar-title">
+        <div data-Aos="fade-left" className="pillar-container-appearance">
           <div className="fade-in-container">
             <div className="image-left-container">
               <img class="pillar-image" src={Familia} alt="Logo" />
@@ -67,10 +84,20 @@ const Home = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
               </p>
+              <p>
+                <br></br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              </p>
+              <br></br>
+              <Link to="/">
+                <CustomButton className="learn-more">Learn more</CustomButton>
+              </Link>
             </div>
           </div>
         </div>
-        <div data-Aos="fade-left" className="pillar-title">
+        <div data-Aos="fade-left" className="pillar-container-appearance">
           <div className="fade-in-container">
             <div className="text-left-container">
               <h2>Academics:</h2>
@@ -80,6 +107,16 @@ const Home = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
               </p>
+              <p>
+                <br></br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              </p>
+              <br></br>
+              <Link to="/">
+                <CustomButton className="learn-more">Learn more</CustomButton>
+              </Link>
             </div>
 
             <div className="image-right-container">
@@ -87,7 +124,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div data-Aos="fade-left" className="pillar-title">
+        <div data-Aos="fade-left" className="pillar-container-appearance">
           <div className="fade-in-container">
             <div className="image-left-container">
               <img class="pillar-image" src={Professionalism} alt="Logo" />
@@ -101,10 +138,20 @@ const Home = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
               </p>
+              <p>
+                <br></br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              </p>
+              <br></br>
+              <Link to="/">
+                <CustomButton className="learn-more">Learn more</CustomButton>
+              </Link>
             </div>
           </div>
         </div>
-        <div data-Aos="fade-left" className="pillar-title">
+        <div data-Aos="fade-left" className="pillar-container-appearance">
           <div className="fade-in-container">
             <div className="text-left-container">
               <h2>Networking:</h2>
@@ -114,6 +161,16 @@ const Home = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
               </p>
+              <p>
+                <br></br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              </p>
+              <br></br>
+              <Link to="/">
+                <CustomButton className="learn-more">Learn more</CustomButton>
+              </Link>
             </div>
 
             <div className="image-right-container">
@@ -121,7 +178,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div data-Aos="fade-left" className="pillar-title">
+        <div data-Aos="fade-left" className="pillar-container-appearance">
           <div className="fade-in-container">
             <div className="image-left-container">
               <img class="pillar-image" src={Outreach} alt="Logo" />
@@ -135,6 +192,16 @@ const Home = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
               </p>
+              <p>
+                <br></br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              </p>
+              <br></br>
+              <Link to="/">
+                <CustomButton className="learn-more">Learn more</CustomButton>
+              </Link>
             </div>
           </div>
         </div>
