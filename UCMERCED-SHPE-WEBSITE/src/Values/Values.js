@@ -6,6 +6,7 @@ import Academics from "../assets/SHPE-Academics.jpg";
 import Professionalism from "../assets/SHPE-Professionalism.jpg";
 import Networking from "../assets/SHPE-Networking.png";
 import Outreach from "../assets/SHPE-Outreach3.png";
+import Footer from "../Footer/Footer";
 
 import "aos/dist/aos.css";
 import Aos from "aos";
@@ -207,9 +208,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div>
-        <h2>Another title</h2>
-      </div>
+      <div>{<Footer />}</div>
     </div>
   );
 };
