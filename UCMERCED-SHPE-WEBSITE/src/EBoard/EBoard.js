@@ -13,7 +13,7 @@ function EBoard() {
       <div className="intro-container">
         <img src="https://www.mccarthy.com/sites/default/files/project-images/UC%20Merced%20Science%20and%20Engineering%20Building-005.jpg" alt="school"/>
       </div>
-      <div className="m"></div>
+      <div className="m">Cute message</div>
 
 
 
@@ -27,7 +27,7 @@ function EBoard() {
         blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
       </div>
       <div className="mem1-container">
-          <img src="https://th.bing.com/th/id/R.4b8ae6534962afba293dca06b718b5df?rik=htS%2bEp2O%2fNwT4Q&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f4%2fCute-Cartoon-PNG-Transparent.png&ehk=brf9GkGR2T%2b3zNn5UMkcl4UpZgEauvzVpjGIsvNEzUI%3d&risl=&pid=ImgRaw&r=0" alt="example img"/>
+          <img src="brandon.jpg" alt="example img"/>
       </div>
       <h4 className="b1">Board Member 1</h4>
 
@@ -42,6 +42,7 @@ function EBoard() {
         <img src="https://th.bing.com/th/id/R.4b8ae6534962afba293dca06b718b5df?rik=htS%2bEp2O%2fNwT4Q&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f4%2fCute-Cartoon-PNG-Transparent.png&ehk=brf9GkGR2T%2b3zNn5UMkcl4UpZgEauvzVpjGIsvNEzUI%3d&risl=&pid=ImgRaw&r=0" alt="example img"/>
       </div>
         <h4 className="b2">Board Member 2</h4>
+
 
       <div className="boarder3">
         <div className="decor3"></div>
