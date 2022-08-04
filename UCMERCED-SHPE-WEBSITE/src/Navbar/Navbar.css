@@ -6,10 +6,11 @@
 
 .navbar {
   display: flex;
+  overflow: hidden;
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: #0b3b9f;
+  background-image: linear-gradient(to right, #0b3b9f, #306ff1);
 }
 
 .navbar a {
@@ -17,7 +18,7 @@
   text-decoration: none;
 }
 
-.navbar a:hover {
+.navbar a:hover, .dropdown:hover {
   color: orange;
 }
 
@@ -27,7 +28,44 @@
 
 .nav-links .link-item {
   display: inline-block;
+  justify-content: center;
   padding: 2rem 1rem;
+}
+
+.nav-links .dropdown .dropbtn { 
+  /* about us */
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .Links {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content .Links:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 .primary-logo {
