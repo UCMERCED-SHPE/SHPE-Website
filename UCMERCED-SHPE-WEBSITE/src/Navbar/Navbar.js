@@ -32,6 +32,9 @@ function Navbar() {
           </div>
         </li>
         <li class="link-item">
+          <Link to="/eboard">E-Board</Link>
+        </li>
+        <li class="link-item">
           <Link to="/join">Join</Link>
         </li>
         <li class="link-item">

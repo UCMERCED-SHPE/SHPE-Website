@@ -24,6 +24,7 @@ function App() {
           <Route path="/alumni" element={<Alumni />} />
           <Route path="/values" element={<Values />} />
           <Route path="/join" element={<Join />} />
+          <Route path="/eboard" element={<EBoard />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
